@@ -1,0 +1,156 @@
+
+
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("shsfront.jpg") top center;
+    background-size: cover;
+    position: relative;
+    padding: 0;
+  }
+  
+  #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+#hero .container {
+  padding-top: 110px;
+}
+
+#bar{
+  color: white;
+  padding-top: 10px;
+  
+  font-size: 14x;
+  margin-left: 5px;
+
+}
+
+#bar .bx-map{
+  color: gold;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#bar .bx-phone{
+  color: goldenrod;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+
+#w3-container{
+  color: goldenrod;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+   
+    background: rgba(1, 15, 36, 0.5);
+    transition: all 0.5s;
+}
+
+#w3-container .title{
+
+  padding-right: 200px;
+  
+}
+
+
+#w3-container .navigation{
+
+  letter-spacing: 0.5px;
+  padding-left: 100px;
+
+}
+
+#w3-container .first{
+  padding-left: 130px;
+}
+
+
+.nav-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu > ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu > ul > li {
+  position: relative;
+  white-space: nowrap;
+  padding-left: 28px;
+}
+
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: white;
+  transition: 0.3s;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;}
+
+.planning{
+  overflow: hidden;
+  position: absolute;
+  font-family: "arial", arial;
+  
+  background: rgba(1, 15, 36, 0.5);
+  padding-top: 20px;
+  padding-left: 20px;
+  margin-left: 100px;
+  margin-right: 0px;
+  opacity: 0.7;
+
+}
+
+
+#planning.planning-show {
+  top: 100px;
+  bottom: auto;
+  opacity: 1;
+  padding-bottom: 45px;
+}
+
+#planning .section-title{
+  font-family "Poppins", seriff;
+  letter-spacing: 0.5px;
+  font-size: 24 px;
+  padding: 0px;
+  color:goldenrod;
+
+}
+
+#planning .planning-text{
+  font-family: "arial", arial;
+  letter-spacing: 0px;
+  font-size: 14px;
+  padding: 0px;
+color:white;
+padding-bottom: 50px;
+}
+
+
+
+
+/*
+body div{
+
+    
+        opacity: 0.3;
+      
+}
+
+  */
